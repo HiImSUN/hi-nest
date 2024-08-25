@@ -1,3 +1,4 @@
+//controller의 역할은 url을 가져오고 function을 return하는 것이다.
 import { Controller, Get, Post } from '@nestjs/common';
 import { AppService } from './app.service';
 
@@ -12,6 +13,6 @@ export class AppController {
 
   @Get('/hello')
   sayHello(): string {
-    return 'Hello everyone';
+    return this.appService.getHi();
   }
 }
