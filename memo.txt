@@ -1,0 +1,6 @@
+//controller의 역할은 url을 가져오고 function을 return하는 것이다.
+
+//function을 배치하는 곳 : service (비지니스 로직을 실행하는 역할)
+
+//Nest에서는 무언가를 원하면 요청해야한다.
+//IF YOU WANT SOMETHING, ASK FOR.
