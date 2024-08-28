@@ -4,3 +4,6 @@
 
 //Nest에서는 무언가를 원하면 요청해야한다.
 //IF YOU WANT SOMETHING, ASK FOR.
+
+Single Responsibility Principle (SRP) - 단일 책임 원칙
+객체는 단 하나의 책임만 가져야 한다.
